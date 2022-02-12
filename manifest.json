@@ -1,0 +1,13 @@
+{
+    "name": "Youtube Speedster",
+    "description": "Change youtube video playback speed more than 2x",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "bg.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["storage", "activeTab", "scripting"]
+}
